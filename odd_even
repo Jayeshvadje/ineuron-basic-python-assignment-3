@@ -1,0 +1,10 @@
+#Python Program to Check if a Number is Odd or Even
+
+"""take a input from a user"""
+a=float(input("enter the number\n"))
+
+"""use if else to cheak wether the number is even or odd"""
+if a%2==0:
+    print("number is even")
+else:
+    print("number is odd")
